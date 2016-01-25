@@ -1,0 +1,14 @@
+void setup() {
+  size(960, 540);
+    background(255);
+}
+
+void draw() { }
+
+void mousePressed() {
+  line(mouseX, 10, mouseX, 90);
+  line(mouseY, 10, mouseY, 90);
+  
+  //Lines are drawn when mouse is pressed on the run screen.
+  //original photo: http://images.junostatic.com/full/CS2531932-02A-BIG.jpg
+}
